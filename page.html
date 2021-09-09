@@ -27,6 +27,8 @@
                 background(255);
             }
             function draw() {
+                  stroke(elColor.color());
+                strokeWeight(elSlider.value());
                 if (mouseIsPressed) {
                     line(pmouseX, pmouseY, mouseX, mouseY);
                 }
